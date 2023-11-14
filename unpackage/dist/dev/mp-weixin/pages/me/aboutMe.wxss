@@ -1,0 +1,10 @@
+
+.text-style{
+	padding: 13px;
+	text-align: left;
+	background-color: white;
+}
+.indentation{
+	margin-left:30px;
+}
+

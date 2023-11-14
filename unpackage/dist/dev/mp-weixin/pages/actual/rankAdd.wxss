@@ -1,0 +1,88 @@
+page {
+  background-color: #E6EDF4;
+}
+.container {
+  font-size: 28rpx;
+}
+.rank-main .rank-main__header {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 2px;
+  background-color: #fff;
+}
+.rank-main .rank-main__header image {
+  width: 18px;
+  height: 18px;
+  vertical-align: text-bottom;
+}
+.rank-main .rank-main__header .rank_search-time {
+  flex: 1;
+  padding-left: 10px;
+  font-size: 28rpx;
+  color: #000;
+}
+.rank-main .rank-main__header .rank_btn {
+  margin: 0;
+  line-height: 30px;
+  font-size: 24rpx;
+  color: #5E5E5E;
+  border-radius: 15px;
+  border: #A5C0D9 solid 1px;
+  background-color: #fff;
+}
+.rank-main .rank-main__list {
+  padding: 0 10px;
+  background-color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+}
+.rank-main .rank-main__list .main__list-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 24rpx;
+  color: #000000;
+}
+.rank-main .rank-main__list .main__list-list {
+  padding-bottom: 20px;
+}
+.rank-main .rank-main__list .main__list-list .list-list_item {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  background: #F1F4F8;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 2px;
+  font-size: 28rpx;
+  color: #000;
+}
+.rank-main .rank-main__list .main__list-list .list-list_item .list_item-title {
+  flex-grow: 1;
+  white-space: nowrap;
+}
+.rank-main .rank-main__list .main__list-list .list-list_item .list_item-val {
+  width: 50px;
+  text-align: center;
+}
+.rank-main .rank-main__list .main__list-list .list-list_item .list_item-jump {
+  width: 30px;
+  text-align: center;
+}
+.rank-main .rank-main__list .main__list-list .list-list_item .list_item-jump image {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.rank_search-box .uni-date {
+  border-color: #A5C0D9;
+}
+.rank_search-box .uni-date-editor {
+  font-size: 24rpx;
+  color: #5E5E5E;
+}
+

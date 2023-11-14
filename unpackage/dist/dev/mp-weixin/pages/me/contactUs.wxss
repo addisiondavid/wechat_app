@@ -1,0 +1,18 @@
+
+.text-style{
+	padding: 13px;
+	text-align: center;
+	background-color:white;
+	border-bottom: 1px solid #ccc;
+}
+.indentation{
+	margin-left:15px;
+}
+.flex-container{
+	display:flex;
+	justify-content:center
+}
+._p:first-child{
+	margin-right:5px;
+}
+

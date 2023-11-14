@@ -1,0 +1,68 @@
+page {
+  background-color: #E6EDF4;
+}
+.bg {
+  height: 150px;
+  background-color: #2C79C1;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.headIcon {
+  display: flex;
+  justify-content: center;
+}
+.headIcon image {
+  width: 70px;
+  height: 70px;
+}
+.login {
+  display: flex;
+  color: #fff;
+  font-size: 30rpx;
+  margin-top: 15rpx;
+  justify-content: center;
+}
+.button {
+  margin: 10px;
+  font-size: 28rpx;
+}
+.head image {
+  border-radius: 50%;
+}
+.hr {
+  width: 100%;
+  height: 15px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+.title {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+.title image {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.detail2 {
+  font-size: 30rpx;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+}
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+

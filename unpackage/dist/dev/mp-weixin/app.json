@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weather/index",
+    "pages/weather/search",
+    "pages/actual/index",
+    "pages/actual/rank",
+    "pages/actual/rankAdd",
+    "pages/actual/stationDetail",
+    "pages/actual/imgShow",
+    "pages/product/index",
+    "pages/product/detail",
+    "pages/forecast/index",
+    "pages/me/index",
+    "pages/me/feedback",
+    "pages/me/aboutMe",
+    "pages/me/contactUs"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "宁夏决策气象服务",
+    "navigationBarBackgroundColor": "#2C79C1",
+    "backgroundColor": "#E6EDF4",
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#3295F1",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabBar/shouye.png",
+        "selectedIconPath": "static/images/tabBar/shouye_selected.png"
+      },
+      {
+        "pagePath": "pages/product/index",
+        "text": "产品",
+        "iconPath": "static/images/tabBar/chanpin.png",
+        "selectedIconPath": "static/images/tabBar/chanpin_selected.png"
+      },
+      {
+        "pagePath": "pages/me/feedback",
+        "text": "意见",
+        "iconPath": "static/images/tabBar/yijianfankui.png",
+        "selectedIconPath": "static/images/tabBar/yijianfankui_selected.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "static/images/tabBar/wode.png",
+        "selectedIconPath": "static/images/tabBar/wode_selected.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

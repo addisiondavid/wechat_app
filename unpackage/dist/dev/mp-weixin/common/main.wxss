@@ -1,0 +1,40 @@
+/*每个页面公共css */
+page {
+  background-color: #E5E5E5;
+}
+.container {
+  height: auto;
+  margin: 0;
+}
+.title {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.rank_search-box .uni-date {
+  height: 28px;
+  padding: 0 10px;
+  border: #bfbfbf solid 1px;
+  border-radius: 15px;
+}
+.noData {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #fff;
+}
+.noData image {
+  width: 64px;
+  height: 64px;
+}
+.noData text {
+  display: block;
+  font-size: 24rpx;
+  color: #ccc;
+  padding-left: 13px;
+}
+.uni-load-more {
+  background-color: #fff;
+}
+.uni-load-more .uni-load-more__text {
+  font-size: 30rpx !important;
+}
+

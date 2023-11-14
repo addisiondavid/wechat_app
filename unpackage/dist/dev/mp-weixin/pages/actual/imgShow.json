@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图片轮播",
+  "usingComponents": {
+    "pp-slider": "/uni_modules/pp-slider/components/pp-slider/pp-slider"
+  }
+}

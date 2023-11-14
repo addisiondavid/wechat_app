@@ -1,0 +1,299 @@
+page {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #62B8F6 0%, #2C79C1 77.96%);
+}
+.container {
+  padding: 10px 10px 5px;
+  background: linear-gradient(180deg, #62B8F6 0%, #2C79C1 77.96%);
+}
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.city-weather_current {
+  padding: 0 10px;
+  background: rgba(10, 47, 73, 0.3);
+  border-radius: 15px;
+  color: #fff;
+}
+.city-weather_current .city-weather-current-day {
+  padding-top: 15px;
+}
+.city-weather_current .city-weather-current-day .row {
+  text-align: center;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__source {
+  padding-right: 10px;
+  margin-bottom: 15px;
+  text-align: right;
+  font-size: 24rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__source .current-location {
+  text-align: center;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__source .current-location .sanjiao {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAa0lEQVQ4T8WSsQ2AMAwE/3ahYwmWgCFhAFqmoGEN+keRCFIUAiINLm2f/l82qiwqOf0M2u6erANLnF9WbTeStpfMLbCGnSSj7V7SWIAHYMoUY6MAJ1CmWIAzqAiGwam8A/Od9Z/v+OX9qq0eUbIdD6zODbIAAAAASUVORK5CYII=) no-repeat 0 0;
+  vertical-align: sub;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 28rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-img image {
+  width: 200rpx;
+  max-height: 100px;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info > view {
+  margin-bottom: 15px;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info .wea-info__date .date-split-line {
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  margin: 0 15px;
+  background-color: #fff;
+  vertical-align: sub;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info .wea-info__tmp {
+  height: 55px;
+  line-height: 55px;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info .wea-info__tmp .condition__tmp {
+  font-weight: 600;
+  font-size: 130rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info .wea-info__tmp .condition__unit {
+  font-size: 100rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__condition .condition__wea-info .wea-info__data-time text {
+  font-size: 28rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__basic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+  border-top: #fff solid 1px;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__basic image {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__basic .list-block {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 20px;
+  position: relative;
+  font-size: 32rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__basic .list-block text {
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rpx;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__basic .list-block .column {
+  margin: 0 3px;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__near {
+  padding: 10px 10px 20px;
+  text-align: left;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__near .near__title {
+  margin-right: 10px;
+  color: #FFFFFF;
+}
+.city-weather_current .city-weather-current-day .city-weather-current__near .near__tip {
+  font-size: 32rpx;
+}
+.city-weather_nearforecast {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(10, 47, 73, 0.3);
+  border-radius: 15px;
+}
+.city-weather_nearforecast .nearforecast__title {
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.city-weather_nearforecast .nearforecast__list {
+  display: flex;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item {
+  margin: 0 36rpx;
+  text-align: center;
+  color: #fff;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item > view {
+  margin: 2px 0;
+  font-size: 28rpx;
+  white-space: nowrap;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item image {
+  width: 26px;
+  height: 26px;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item .list_item_wea {
+  height: 26px;
+  margin: 0;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item .list_item_time {
+  white-space: nowrap;
+  font-size: 24rpx;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item .list_item_temp {
+  font-size: 36rpx;
+  color: #fff;
+}
+.city-weather_nearforecast .nearforecast__list .nearforecast__list_item .list_item_ws {
+  color: #fff;
+}
+.city-weather_sevenforecast {
+  padding: 15px 15px 0;
+  margin-top: 15px;
+  background: rgba(10, 47, 73, 0.3);
+  border-radius: 15px;
+}
+.city-weather_sevenforecast .title {
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.city-weather_sevenforecast .days-wrap {
+  width: 100%;
+}
+.city-weather_sevenforecast .days-wrap .days {
+  position: relative;
+  display: flex;
+}
+.city-weather_sevenforecast .days-wrap .days .days-item {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 28rpx;
+}
+.city-weather_sevenforecast .days-wrap .days .week {
+  margin-bottom: 5px;
+  color: #fff;
+}
+.city-weather_sevenforecast .days-wrap .days .we-today {
+  color: #fff;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  background-color: #6ab1e0;
+}
+.city-weather_sevenforecast .days-wrap .days .date {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 24rpx;
+}
+.city-weather_sevenforecast .days-wrap .days .wea {
+  white-space: nowrap;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.city-weather_sevenforecast .days-wrap .days .win,
+.city-weather_sevenforecast .days-wrap .days .speed {
+  white-space: nowrap;
+  font-size: 24rpx;
+  color: #fff;
+}
+.city-weather_sevenforecast .days-wrap .days .speed {
+  margin-bottom: 5px;
+}
+.city-weather_sevenforecast .days-wrap .days .img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.city-weather_sevenforecast .days-wrap .days .temp-echart-view {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  top: 90px;
+  left: 0;
+  right: 0;
+}
+.city-weather_sevenforecast .days-wrap .days .temp-echart-view .temp-echart {
+  width: 100%;
+  height: 100%;
+}
+.city-weather_sevenforecast .days-wrap .temp-echart-bg {
+  width: 100%;
+  height: 120px;
+}
+.city-weather_airquality {
+  padding: 15px 0 5px;
+  margin: 15px 0;
+  background: rgba(10, 47, 73, 0.3);
+  border-radius: 15px;
+  font-family: Poppins;
+  font-style: normal;
+}
+.city-weather_airquality .title {
+  padding: 0 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.city-weather_airquality .airquality-wrap {
+  overflow: hidden;
+}
+.city-weather_airquality .airquality-wrap .airquality {
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.city-weather_airquality .airquality-wrap .airquality .name {
+  display: block;
+  font-size: 28rpx;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.city-weather_airquality .airquality-wrap .airquality .value {
+  display: block;
+  font-size: 22rpx;
+  color: #fff;
+}
+.city-weather_airquality .airquality-wrap .airquality .img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+

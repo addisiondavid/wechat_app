@@ -1,0 +1,154 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宁夏决策气象服务"
+				//"navigationBarTitleText": "华信决策气象服务小程序应用软件"
+			}
+		},
+		{
+			"path": "pages/weather/index",
+			"style": {
+				"navigationBarTitleText": "天气预报"
+			}
+		},
+		{
+			"path": "pages/weather/search",
+			"style": {
+				"navigationBarTitleText": "天气预报"
+			}
+		},
+		{
+			"path": "pages/actual/index",
+			"style": {
+				"navigationBarTitleText": "实况监测"
+			}
+		},
+		{
+			"path": "pages/actual/rank",
+			"style": {
+				"navigationBarTitleText": "实况排位"
+			}
+		},
+		{
+			"path": "pages/actual/rankAdd",
+			"style": {
+				"navigationBarTitleText": "累加排位"
+			}
+		},
+		{
+			"path": "pages/actual/stationDetail",
+			"style": {
+				"navigationBarTitleText": "时间序列"
+			}
+		},
+		{
+			"path": "pages/actual/imgShow",
+			"style": {
+				"navigationBarTitleText": "图片轮播"
+			}
+		},
+		{
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "服务产品"
+			}
+		},
+		{
+			"path": "pages/product/detail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		},
+		{
+			"path": "pages/forecast/index",
+			"style": {
+				"navigationBarTitleText": "预警预报"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/me/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/me/aboutMe",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/me/contactUs",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		}
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "宁夏决策气象服务",
+		//"navigationBarTitleText": "华信决策气象服务小程序应用软件",
+		"navigationBarBackgroundColor": "#2C79C1",
+		"backgroundColor": "#E6EDF4",
+		"pageOrientation": "auto"
+		
+	},
+	"tabBar": {
+		"color":"#666666",
+		"selectedColor":"#3295F1",
+		"borderStyle":"white",
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/images/tabBar/shouye.png",
+				"selectedIconPath":"static/images/tabBar/shouye_selected.png"
+			},
+			{
+				"pagePath":"pages/product/index",
+				"text":"产品",
+				"iconPath":"static/images/tabBar/chanpin.png",
+				"selectedIconPath":"static/images/tabBar/chanpin_selected.png"
+			},
+			{
+				"pagePath":"pages/me/feedback",
+				"text":"意见",
+				"iconPath":"static/images/tabBar/yijianfankui.png",
+				"selectedIconPath":"static/images/tabBar/yijianfankui_selected.png"
+			},
+			{
+				"pagePath":"pages/me/index",
+				"text":"我的",
+				"iconPath":"static/images/tabBar/wode.png",
+				"selectedIconPath":"static/images/tabBar/wode_selected.png"
+			}
+			
+		]
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+	    "^ec-(.*)": "@/components/ec-$1.vue" 
+	  }
+	},
+	"permission": {
+	    "scope.userLocation": {
+	        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+	    }
+	},
+	"requiredPrivateInfos":[
+		"getLocation"
+	]
+	
+}

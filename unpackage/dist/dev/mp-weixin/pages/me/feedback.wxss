@@ -1,0 +1,34 @@
+page {
+  background-color: #E6EDF4;
+}
+.contant_wrap {
+  background-color: #fff;
+}
+.contant {
+  width: 94%;
+  margin: 0 auto;
+}
+textarea {
+  min-height: 600rpx;
+  padding: 10rpx 0;
+  width: 100%;
+}
+.submitBtn {
+  margin-top: 60rpx;
+  padding: 0 30rpx;
+}
+.submitBtn button {
+  font-size: 36rpx !important;
+  background-color: #2C79C1;
+}
+.submitBtn button[loading][type=primary] {
+  background-color: #2C79C1;
+}
+.submitBtn button[disabled][type=primary] {
+  background-color: #2C79a0;
+}
+.placeholder {
+  color: #999999;
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,39 @@
+page {
+  background-color: #FFFFFF;
+}
+.container {
+  width: auto;
+  padding: 10px;
+  font-size: 32rpx;
+}
+.station-title {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: #333 solid 1px;
+}
+.h24-box__wrap {
+  border-bottom: #333 solid 1px;
+}
+.h24-box__wrap .temp-echart-view {
+  width: 100%;
+  height: 320px;
+}
+.h24-box__wrap .temp-echart-view .temp-echart {
+  width: 100%;
+  height: 100%;
+}
+.station-d7-box {
+  margin-top: 10px;
+}
+.station-d7-box .d7-box__wrap .temp-d7-echart-view {
+  width: 100%;
+  height: 280px;
+}
+.station-d7-box .d7-box__wrap .temp-d7-echart-view .temp-d7-echart {
+  width: 100%;
+  height: 100%;
+}
+.hide7Day {
+  display: none;
+}
+

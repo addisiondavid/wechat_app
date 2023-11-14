@@ -1,0 +1,204 @@
+page {
+  background-color: #E6EDF4;
+}
+.container {
+  padding: 0 10px 10px;
+}
+.con-box-notices {
+  height: 72rpx;
+  margin: 20rpx 0 0;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.city-weather_current {
+  height: 90rpx;
+  padding: 30rpx 50rpx 40rpx;
+  margin-bottom: 40rpx;
+  margin-top: 20rpx;
+  background: linear-gradient(180deg, #62B8F6 0%, #409BF0 77.96%);
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+}
+.city-weather_current .city-weather_current_city {
+  min-width: 45%;
+}
+.city-weather_current .icon-address {
+  display: inline-block;
+  width: 24rpx;
+  height: 28rpx;
+  margin-left: 10rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAENSURBVHgBdVHbEYIwEAzBAqADStAOsAOtQDrQDrQDS1ArcKwArEA7QCsIr1/AXebIoEhmltxj77jsKTU4RVFEQAy0AtqR+nckGRtjQsBjjHae5w/Er32sO2VZHpE4q4nDHDlKugQIpLzpV1W1RUdDgLQXjkef98x13RCxxPf9F4Kruq53TdMsSNRac8Q7cgma3uBHum3bAHiTgHuO68JigjZIoUxG39P4ZDQYQefEcZwNxyNoA08p8DoulcAo6eCBB8AIdgMV+c65lZSFUyrh8ZTXNrV6TxWw+2iBXI7V+rv7HrnTqAs15m977Xuy7Mhu2fkpCqg9cKYP1SJgKRKPC/oiLLMbAUtcg5wN8x8H4/twu8ye/wAAAABJRU5ErkJggg==) no-repeat 0 0;
+}
+.city-weather_current .icon-address,
+.city-weather_current .current__city {
+  font-size: 32rpx;
+}
+.city-weather_current .current__title {
+  display: block;
+  line-height: 60rpx;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.city-weather_current .current__title-symbol {
+  font-size: 32rpx;
+}
+.city-weather_current .current__img {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+.city-weather_current .city-weather_current_tianqi {
+  text-align: center;
+}
+.city-weather_current .city-weather_current_tianqi .current_tianqi {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.city-weather_current .city-weather_current_tianqi .current_air {
+  margin-top: 14rpx;
+  font-size: 24rpx;
+}
+.city-weather_current .city-weather_current_tianqi .current_air .air-aqi {
+  display: flex;
+}
+.city-weather_current .city-weather_current_tianqi .current_air .air-aqi .air-aqi__level {
+  width: 50rpx;
+  height: 32rpx;
+  border-radius: 10rpx;
+}
+.city-weather_current .city-weather_current_tianqi .current__title {
+  line-height: 40rpx;
+  font-weight: normal;
+  font-size: 24rpx;
+}
+.con-box {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.con-box .box-header {
+  height: 72rpx;
+  line-height: 72rpx;
+  background-color: #F2F5F9;
+  overflow: hidden;
+}
+.con-box .box-header .box-header__title {
+  float: left;
+  overflow: hidden;
+}
+.con-box .box-header .box-header__title .header__title-text {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #000000;
+}
+.con-box .box-header .box-header__title .header__title-tip {
+  float: left;
+  width: 44rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  text-align: center;
+  background-color: rgba(245, 159, 30, 0.2);
+  border-radius: 4rpx;
+  margin: 14rpx 20rpx 0rpx 30rpx;
+}
+.con-box .box-header .box-header__title image {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+}
+.con-box .box-header .box-header__more {
+  float: right;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  color: #38A1E8;
+}
+.con-box .box-container {
+  padding: 10rpx 0;
+  overflow: hidden;
+}
+.con-box .box-container .box-container__list {
+  padding: 0 40rpx;
+  max-height: 240rpx;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.con-box .box-container .box-container__list .list_item {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #666666;
+}
+.con-box .box-container .box-container__list .list_item .list_item__title {
+  display: inline-block;
+  width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.con-box .box-container .box-container__list .list_item .list_item__img {
+  width: 20rpx;
+  height: 20rpx;
+  float: left;
+  margin-top: 30rpx;
+  margin-right: 10rpx;
+}
+.con-box .box-container .box-container__list .list_item .list_item__date {
+  float: right;
+}
+.con-box-products {
+  margin-top: -20rpx;
+  box-shadow: none;
+}
+.con-box-products .box-container {
+  max-height: 240rpx;
+}
+.con-box-actual .box-header .header__title-tip {
+  background-color: rgba(56, 161, 232, 0.2) !important;
+}
+.subMenu-item {
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subMenu-item:nth-child(3n) {
+  border-right: 0;
+}
+.subMenu-item .name {
+  display: block;
+  font-size: 32rpx;
+  width: 100%;
+  margin-top: 10rpx;
+  text-align: center;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.subMenu-item .img {
+  width: 96rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  background: #F2F5F9;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.subMenu-item .img image {
+  height: 50rpx;
+  vertical-align: middle;
+}
+.con-box-forecast .box-header .header__title-tip {
+  background-color: rgba(30, 245, 155, 0.2) !important;
+}
+.con-box-forecast .subMenu-item .img {
+  background: #EDFBF6;
+}
+

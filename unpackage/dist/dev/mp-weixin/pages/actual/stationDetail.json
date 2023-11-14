@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "时间序列",
+  "usingComponents": {
+    "ec-canvas": "/components/ec-canvas"
+  }
+}

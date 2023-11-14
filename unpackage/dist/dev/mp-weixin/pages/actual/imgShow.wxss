@@ -1,0 +1,113 @@
+page,
+.container {
+  width: 100%;
+  height: 100%;
+}
+page {
+  background-color: #E6EDF4;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+}
+.img-menu {
+  display: flex;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  line-height: 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.img-menu .img-menu__list {
+  height: 30px;
+  line-height: 30px;
+  flex: 1;
+  text-align: center;
+}
+.img-menu .img-menu__list .menu__list-item {
+  color: #000000;
+}
+.img-menu .img-menu__list.active .menu__list-item {
+  display: block;
+  background-color: #2C79C1;
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+.img-main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.img-main .img-main__time {
+  line-height: 30px;
+  color: #888;
+  font-size: 32rpx;
+  text-align: center;
+}
+.img-main .img-main__imgs {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+  flex-grow: 1;
+}
+.img-main .img-main__imgs .main-imgs {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+}
+.img-main .img-main__imgs .main-imgs .main-imgs_img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.img-main .img-main__imgs .on {
+  opacity: 1;
+}
+.img-main .img-main__control-wrap {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 7px;
+  margin-bottom: 15px;
+}
+.img-main .img-main__control-wrap .img-main__control {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  list-style: none;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.img-main .img-main__control-wrap .img-main__control .control-play {
+  text-align: center;
+  margin: 0 5px;
+}
+.img-main .img-main__control-wrap .img-main__control .control-play image {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.img-main .img-main__control-wrap .img-main__control .control-slider {
+  flex-grow: 1;
+  padding-top: 12px;
+  height: 25px;
+  margin-right: 10px;
+}
+.noData {
+  padding-top: 150px;
+  background-color: transparent;
+}
+
